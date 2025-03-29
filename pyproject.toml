@@ -4,4 +4,11 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "jupyter-book>=2.0.0a3",
+    "myst-nb>=0.17.0",
+    "sphinx-book-theme>=0.3.0",
+    "sphinx-autoapi>=1.11.0",
+    "sphinx-autodoc-typehints>=1.23.0",
+    "sphinx-rtd-theme>=1.2.0",
+]
